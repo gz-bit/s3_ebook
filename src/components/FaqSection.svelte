@@ -1,7 +1,7 @@
 <script lang="ts">
   import { FaqItem, CheckoutButton } from '$components'
   import twitterIcon from '$assets/icons/twitter.webp'
-  import xIcon from '$assets/icons/x.png'
+  import xIcon from '$assets/icons/X.png'
   const faqs = [
     {
       question: "What will I learn from this ebook?",
