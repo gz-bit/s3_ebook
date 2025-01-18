@@ -1,7 +1,6 @@
 <script lang="ts">
   import bookCover from '$assets/book_cover.png'
   import phoneCover from '$assets/phone_cover.png'
-  import { CheckoutButton } from '$components'
 
   const { children } = $props()
 </script>
@@ -16,20 +15,8 @@
     <img class="phone-cover" src={phoneCover} alt="Phone cover" />
   </div>
   <div class="hero-text white text-center">
-    {#if children}
-      {@render children()}
-    {:else}
-      <h2>THIS EBOOK WILL</h2>
-      <h2>SAVE YOU MONEY,</h2>
-      <h2 class="mb-m">TIME & NERVES</h2>
-      <p class="light-grey mb-l">
-        I moved to Spain in 2019 and I have learned a lot since then. 
-        I have made many mistakes and I have learned from them. 
-        I want to share my experience with you so you can avoid making the same mistakes I made.
-      </p>
-
-      <CheckoutButton>Purchase this E-book for $10</CheckoutButton>
-    {/if}
+    {@render children()}
+  </div> 
 </section>
 
 

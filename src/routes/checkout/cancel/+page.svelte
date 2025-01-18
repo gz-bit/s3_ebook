@@ -1,5 +1,7 @@
 <script lang="ts">
-  import { HeroSection, CheckoutButton } from "$components"
+  import { HeroSection, CheckoutButton, ExploreButton } from "$components"
+  import {PUBLIC_FRONTEND_URL} from "$env/static/public"
+
 </script>
 
 <HeroSection>
@@ -20,5 +22,8 @@
     checkout page.
   </p>
   <CheckoutButton>Try again</CheckoutButton>
+  <br>
+  <a href={PUBLIC_FRONTEND_URL}>
+    <ExploreButton class="mt-s" onclick={()=>{}}>Explore further</ExploreButton>
+  </a>
 </HeroSection>
-

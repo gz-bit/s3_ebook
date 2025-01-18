@@ -1,5 +1,7 @@
 export { default as HeroSection } from './HeroSection.svelte' 
+export { default as HeroText } from './HeroText.svelte' 
 export { default as CheckoutButton } from './CheckoutButton.svelte'
+export { default as ExploreButton } from './ExploreButton.svelte'
 export { default as ChapterPerview } from './ChapterPreview.svelte'
 export { default as AuthorSection } from './AuthorSection.svelte'
 export { default as FaqSection } from './FaqSection.svelte'
